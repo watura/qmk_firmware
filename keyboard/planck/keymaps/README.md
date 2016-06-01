@@ -4,7 +4,7 @@ Folders should follow the format:
 
     [ISO 3166-1 alpha-2 code*]_[layout variant]_[layout name/author]
 
-    * See full list: https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements
+\* See full list: https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements
 
 and contain the following files:
 
