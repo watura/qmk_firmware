@@ -24,8 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* max value on report descriptor */
 #define MOUSEKEY_MOVE_MAX       127
+#ifndef MOUSEKEY_WHEEL_MAX
 #define MOUSEKEY_WHEEL_MAX      127
-
+#endif
 #ifndef MOUSEKEY_MOVE_DELTA
 #define MOUSEKEY_MOVE_DELTA     5
 #endif

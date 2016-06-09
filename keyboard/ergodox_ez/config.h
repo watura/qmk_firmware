@@ -33,10 +33,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 14
 #define MATRIX_COLS 6
 
-#define MOUSEKEY_DELAY          100
-#define MOUSEKEY_INTERVAL       20
-#define MOUSEKEY_MAX_SPEED      3
-#define MOUSEKEY_TIME_TO_MAX    10
+#define MOUSEKEY_DELAY          10
+#define MOUSEKEY_INTERVAL       10
+#define MOUSEKEY_MAX_SPEED      4
+#define MOUSEKEY_TIME_TO_MAX    50
+
+#define MOUSEKEY_WHEEL_MAX_SPEED 1
+#define MOUSEKEY_WHEEL_MAX 1
 
 #define TAPPING_TOGGLE  1
 
@@ -54,7 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE    2
-#define TAPPING_TERM    200
+#define TAPPING_TERM    180
 #define IGNORE_MOD_TAP_INTERRUPT // this makes it possible to do rolling combos (zx) with keys that convert to other keys on hold (z becomes ctrl when you hold it, and when this option isn't enabled, z rapidly followed by x actually sends Ctrl-x. That's bad.)
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
