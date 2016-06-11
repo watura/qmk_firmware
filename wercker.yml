@@ -35,3 +35,7 @@ deploy:
         - github-create-release:
             token: $GITHUB_TOKEN
             tag: $TIMESTAMP
+            steps:
+        - github-upload-asset:
+            token: $GITHUB_TOKEN
+            file: $WERCKER_SOURCE_DIR/ergodox_ez.hex
