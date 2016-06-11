@@ -31,7 +31,7 @@ deploy:
     steps:
          - script:
             name: set time tamp for Tag
-            code: export TIMESTAMP=$(date +"%Y%m%d%H%M%S")
+            code: export TIMESTAMP=$(date +\"%Y%m%d%H%M%S\")
         - github-create-release:
             token: $GITHUB_TOKEN
             tag: $TIMESTAMP
