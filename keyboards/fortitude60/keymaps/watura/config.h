@@ -28,6 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 #define EE_HANDS
 
+#define AUTO_SHIFT_TIMEOUT 110
+
 /* #undef RGBLED_NUM */
 /* #define RGBLIGHT_ANIMATIONS */
 /* #define RGBLED_NUM 12 */
